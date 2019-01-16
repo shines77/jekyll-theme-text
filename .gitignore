@@ -120,6 +120,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# Binary folder
+/bin
 
 .vscode/*
 !.vscode/settings.json
