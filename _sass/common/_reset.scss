@@ -43,6 +43,7 @@ body {
   ::selection {
     background: $select-color;
   }
+  overflow: scroll;
 }
 
 @include block-elements() {

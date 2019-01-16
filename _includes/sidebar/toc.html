@@ -12,9 +12,9 @@
             {%- include snippets/get-nav-url.html path=page.url -%}
             {%- assign _page_url = __return -%}
             {%- if _nav_url == _page_url -%}
-              <li class="toc-h2 active"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+              <li class="toc-h2 active"><a href="{{ _nav_url }}"{%- if _child.target -%} target="{{ _child.target }}"{%- endif -%}>{{ _child.title }}</a></li>
             {%- else -%}
-              <li class="toc-h2"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+              <li class="toc-h2"><a href="{{ _nav_url }}"{%- if _child.target -%} target="{{ _child.target }}"{%- endif -%}>{{ _child.title }}</a></li>
             {%- endif -%}
           {%- endfor -%}
         {%- endif -%}
