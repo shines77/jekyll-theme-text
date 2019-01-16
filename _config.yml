@@ -158,7 +158,6 @@ comments:
     repository  : https://github.com/shines77/shines77.github.io # GitHub repo
     owner       : shines77 # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
       - shines77
 
   ## Valine
@@ -220,4 +219,5 @@ exclude:
   - /test
   - /vendor
   - /bin
+  - /tools
   - /_release

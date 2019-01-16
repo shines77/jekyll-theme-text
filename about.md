@@ -59,7 +59,7 @@ TeXt has 6 built-in skins, you can also set up your own skin.
 
 ### Highlight Theme
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme){target:_blank} as the highlight theme.
 
 | `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
 | --- |  --- | --- | --- |  --- |

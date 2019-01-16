@@ -37,3 +37,7 @@ jekyll-watch-2.1.2 depends on jekyll (~> 3.6, development)
 jemoji-0.10.1 depends on jekyll (~> 3.0)
 minima-2.5.0 depends on jekyll (~> 3.5)
 
+gitalk:
+
+https://github.com/settings/applications/968878
+
