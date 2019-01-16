@@ -3,6 +3,8 @@ bundle install
 
 bundle exec jekyll build
 
+bundle exec jekyll build --incremental
+
 bundle exec jekyll serve
 
 bundle exec jekyll serve -P 8000

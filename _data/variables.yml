@@ -1,17 +1,18 @@
 default:
   text_skin: default
-  highlight_theme: default
-  lang: en
+  highlight_theme: tomorrow-night
+  lang: zh-CN
   paths:
     root: /
     home: /
     category:  /category.html
     archive:  /archive.html
+    tags:  /tags.html
     about:  /about.html
     gtihub:  /gtihub.html
     rss:  /feed.xml
-  mathjax: false
-  mathjax_autoNumber: false
+  mathjax: true
+  mathjax_autoNumber: true
   mermaid: false
   chart: false
   toc:
