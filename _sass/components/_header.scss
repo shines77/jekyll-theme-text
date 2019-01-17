@@ -118,3 +118,13 @@
     @include split-line(bottom, 4px, $main-color-1);
   }
 }
+
+.navigation__spacing {
+  margin: 2px 8px 0px -8px;
+  padding: 1px 1px 0px 1px;
+  float: left;
+  border: 1px;
+  width: 1px;
+  height: 25px;
+  background: $main-color-2;
+}

@@ -58,6 +58,12 @@ timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_
 repository: shines77/jekyll-theme-text
 repository_tree: master
 
+##
+## The post's date is in the future.
+## See: https://stackoverflow.com/questions/30625044/jekyll-post-not-generated
+##
+future: true
+
 source:      .
 destination: ./_release
 
@@ -155,7 +161,7 @@ comments:
   gitalk:
     clientID    : bfbbba08243e0c7fc20f # GitHub Application Client ID
     clientSecret: a52e78240a76f33e1f4c40649752cb620fcdbebc # GitHub Application Client Secret
-    repository  : shines77.github.io # GitHub repo
+    repository  : gitalk-comments # GitHub repo
     owner       : shines77 # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       - shines77
